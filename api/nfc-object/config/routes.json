@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/nfc-objects",
+      "handler": "nfc-object.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/nfc-objects/count",
+      "handler": "nfc-object.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/nfc-objects/:id",
+      "handler": "nfc-object.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/nfc-objects",
+      "handler": "nfc-object.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/nfc-objects/:id",
+      "handler": "nfc-object.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/nfc-objects/:id",
+      "handler": "nfc-object.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
